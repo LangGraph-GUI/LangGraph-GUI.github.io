@@ -1,0 +1,16 @@
+.vs/
+
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+Gemfile.lock
+vendor
+
+*.png
+*.jpg
+
+*.zip
+*.7z
+
+
