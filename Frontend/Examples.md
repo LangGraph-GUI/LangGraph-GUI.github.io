@@ -11,21 +11,23 @@ Remembmer, these examples are act different output and process on different llm 
 To make better output, you need modify or refine prompts.
 
 ## Simple DND Play
+This example shows simple loop flow that a player and a hoster on TRPG.
 ![](./images/ex_simple_dnd.webp)
 
-This example shows simple loop flow that a player and a hoster on TRPG.
-
 ## Save File
+This example shows simple tool and save file
 ![](./images/ex_save_file.webp)
 
-This example shows simple tool and save file
+
 
 ## Lottery
+This example shows simple condition switch to different branch
 ![](./images/ex_lottery.webp)
 
-This example shows simple condition switch to different branch
+
 
 ## DND Play
+This example merges tool using and condition branch
+
 ![](/cover.webp)
 
-This example merges tool using and condition branch
