@@ -1,0 +1,17 @@
+---
+layout: base
+---
+
+{% include sidebar.html%}
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    fetch('/Frontend/outline.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('outline').innerHTML = data;
+      });
+  });
+</script>
+
+

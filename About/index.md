@@ -4,20 +4,19 @@
 
 ![LangGraph-GUI](/cover.webp)
 
+## Docker Compose
+To run LangGraph-GUI using Docker Compose, refer to the detailed instructions available in the [LangGraph-GUI Docker Compose Setup](https://github.com/LangGraph-GUI/LangGraph-GUI?tab=readme-ov-file#getting-started).
+
 ## Components
 
 LangGraph-GUI comprises the following main components:
 
-- [**Frontend**](https://github.com/LangGraph-GUI/LangGraph-GUI-frontend): The default frontend is built with ReactFlow, providing an intuitive interface for graph editing.
+- **Frontend**: The default frontend is built with ReactFlow, providing an intuitive interface for graph editing.
   - for more info, please view [Frontend](/Frontend)
-- [**Backend**](https://github.com/LangGraph-GUI/LangGraph-GUI-backend): The backend is implemented using Flask, offering a robust and scalable server-side solution.
+- **Backend**: The backend is implemented using Flask, offering a robust and scalable server-side solution.
   - for more info, please view [Backend](/Backend)
 - AI-end
   - For running local language models with Ollama AI service, we recommend using NVIDIA Docker. 
-
-
-## Docker COmpose
-To run LangGraph-GUI using Docker Compose, refer to the detailed instructions available in the [LangGraph-GUI repository](https://github.com/LangGraph-GUI/LangGraph-GUI).
 
 ## Electron wrapper
 

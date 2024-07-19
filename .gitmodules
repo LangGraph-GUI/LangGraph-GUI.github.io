@@ -6,3 +6,7 @@
 	path = assets
 	url = https://github.com/PosetMage/jekyll_assets.git
 	branch = main
+[submodule "_layouts/page"]
+	path = _layouts/page
+	url = https://github.com/PosetMage/jekyll_layouts.git
+	branch = main
