@@ -1,16 +1,27 @@
-# LangGraph-GUI
+# About LangGraph-GUI
 
-[LangGraph-GUI](https://github.com/LangGraph-GUI/LangGraph-GUI) is a user-friendly interface for editing Node-Edge workflow Graph to LangGraph. It supports creating, editing, and running workflows using local language models by Ollama. And It can run with docker compose.
+[LangGraph-GUI](https://github.com/LangGraph-GUI/LangGraph-GUI) is a user-friendly interface designed for editing Node-Edge workflow graphs using LangGraph. This tool supports creating, editing, and running workflows with local language models such Ollama. It can be easily deployed using Docker Compose.
 
-![](https://raw.githubusercontent.com/LangGraph-GUI/LangGraph-GUI-frontend/main/cover.webp)
+![LangGraph-GUI](https://raw.githubusercontent.com/LangGraph-GUI/LangGraph-GUI-frontend/main/cover.webp)
 
 ## Components
 
-We also provide [electron wrapper](https://github.com/LangGraph-GUI/LangGraph-GUI?tab=readme-ov-file#electron-wrapper)
+LangGraph-GUI comprises the following main components:
 
-The default set is [Reactflow frontend](https://github.com/LangGraph-GUI/LangGraph-GUI-frontend) and [flask backend](https://github.com/LangGraph-GUI/LangGraph-GUI-backend).
+- [**Frontend**](https://github.com/LangGraph-GUI/LangGraph-GUI-frontend): The default frontend is built with ReactFlow, providing an intuitive interface for graph editing.
+  - for more info, please view [Frontend](/Frontend)
+- [**Backend**](https://github.com/LangGraph-GUI/LangGraph-GUI-backend): The backend is implemented using Flask, offering a robust and scalable server-side solution.
+  - for more info, please view [Backend](/Backend)
+- AI-end
+  - For running local language models with Ollama AI service, we recommend using NVIDIA Docker. 
 
-If you want Qt version, see [LangGraph-GUI-Qt](https://github.com/LangGraph-GUI/LangGraph-GUI-Qt)
 
-## Side project
-We also have Qt version of [CrewAI-GUI](https://github.com/LangGraph-GUI/CrewAI-GUI)
+## Docker COmpose
+To run LangGraph-GUI using Docker Compose, refer to the detailed instructions available in the [LangGraph-GUI repository](https://github.com/LangGraph-GUI/LangGraph-GUI).
+
+## Electron wrapper
+
+For those who prefer a desktop application, we also provide an [Electron wrapper](https://github.com/LangGraph-GUI/LangGraph-GUI?tab=readme-ov-file#electron-wrapper).
+
+
+We hope you find LangGraph-GUI useful for your workflow management needs. For more information, visit our [GitHub Discussions](https://github.com/orgs/LangGraph-GUI/discussions) page to leave any questions or feedback.
