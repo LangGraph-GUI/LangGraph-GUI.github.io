@@ -9,4 +9,7 @@ Welcome to the LangGraph-GUI project documentation!
 
 If you have any questions or would like to leave a message, please visit our [GitHub Discussions](https://github.com/orgs/LangGraph-GUI/discussions) page.
 
+![LangGraph-GUI](/cover.webp)
+
 We hope you find the information you need. If you have any questions, feel free to reach out!
+
