@@ -1,2 +1,2 @@
 # LangGraph-GUI.github.io
-wiki page for LangGraph-GUI
+see [LangGraph-GUI.github.io](https://LangGraph-GUI.github.io)
