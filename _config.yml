@@ -20,7 +20,7 @@
 
 title: LangGraph-GUI
 email: homun@posetmage.com
-url: https://lattice.posetmage.com # the base hostname & protocol for your site, e.g. http://example.com
+url: https://LangGraph-GUI.github.io # the base hostname & protocol for your site, e.g. http://example.com
 
 description: LangGraph-GUI
 #baseurl:  # the subpath of your site, e.g. /blog
