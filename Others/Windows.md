@@ -97,6 +97,5 @@ Before you begin, ensure you have the following installed on your system:
 After completing the steps above, you should have the backend and frontend servers running along with the Ollama service. You can now access the LangGraph GUI through your web browser at `http://localhost:3000`.
 
 ### Note
-
 - Ensure all terminal windows remain open while running the servers.
-- If you encounter any issues, check the respective GitHub repositories for documentation and troubleshooting tips.
+
