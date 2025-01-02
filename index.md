@@ -13,7 +13,7 @@ Welcome to the LangGraph-GUI project documentation!
 - For additional resources and related side projects, visit the [Others](/Others) page.
 - For Windows OS user, see [Windows](/Others/Windows)
 
-If you have any questions or would like to leave a message, please use our [GitHub Discussions](https://github.com/orgs/LangGraph-GUI/discussions) page.
+If you have any questions or would like to leave a message, please use our [GitHub Discussions](https://github.com/LangGraph-GUI/LangGraph-GUI/discussions) page.
 
 ![LangGraph-GUI](/cover.webp)
 
