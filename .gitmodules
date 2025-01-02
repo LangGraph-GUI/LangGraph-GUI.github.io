@@ -2,10 +2,7 @@
 	path = _includes
 	url = https://github.com/PosetMage/Jekyll_includes.git
 	branch = main
-[submodule "assets"]
-	path = assets
-	url = https://github.com/PosetMage/jekyll_assets.git
-	branch = main
+
 [submodule "_layouts/page"]
 	path = _layouts/page
 	url = https://github.com/PosetMage/jekyll_layouts.git
