@@ -23,4 +23,4 @@ LangGraph-GUI comprises the following main components:
 For those who prefer a desktop application, we also provide an [Electron wrapper](https://github.com/LangGraph-GUI/LangGraph-GUI?tab=readme-ov-file#electron-wrapper).
 
 
-We hope you find LangGraph-GUI useful for your workflow management needs. For more information, visit our [GitHub Discussions](https://github.com/orgs/LangGraph-GUI/discussions) page to leave any questions or feedback.
+We hope you find LangGraph-GUI useful for your workflow management needs. For more information, visit our [GitHub Discussions](https://github.com/LangGraph-GUI/LangGraph-GUI/discussions) page to leave any questions or feedback.
