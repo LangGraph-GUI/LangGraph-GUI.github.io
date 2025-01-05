@@ -3,9 +3,9 @@ layout: base
 
 ---
 
-# LangGraph-GUI
+# [LangGraph-GUI](https://github.com/LangGraph-GUI/LangGraph-GUI/)
 
-Welcome to the LangGraph-GUI project documentation!
+Welcome to the [LangGraph-GUI](https://github.com/LangGraph-GUI/LangGraph-GUI/) documentation!
 
 - To understand more about this project, visit the [About](/About) page.
 - For steps on using the GUI frontend, check out the [Frontend](/Frontend) documentation.
@@ -19,3 +19,9 @@ If you have any questions or would like to leave a message, please use our [GitH
 
 We hope you find the information you need. If you have any questions, feel free to reach out!
 
+
+## Update log and future works:
+* [general log](https://github.com/LangGraph-GUI/LangGraph-GUI/blob/main/CHANGELOG.md)
+* [frontend log](https://github.com/LangGraph-GUI/LangGraph-GUI-frontend/blob/main/CHANGELOG.md)
+* [backend log](https://github.com/LangGraph-GUI/LangGraph-GUI-backend/blob/main/CHANGELOG.md)
+* [task manager](https://github.com/orgs/LangGraph-GUI/projects)

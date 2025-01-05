@@ -1,7 +1,6 @@
 # LangGraph GUI Setup on Windows
 
-
-This guide will help you set up and run the LangGraph GUI application, both backend and frontend, on a Windows environment.
+This guide will help you set up and run the LangGraph-GUI, both backend and frontend, on a Windows environment.
 
 ## Prerequisites
 
@@ -58,9 +57,10 @@ Before you begin, ensure you have the following installed on your system:
    Open a new PowerShell terminal window.
 
 2. **Clone the Frontend Repository**  
+   **frontend need dep**
    Clone the LangGraph frontend repository from GitHub:
    ```bash
-   git clone https://github.com/LangGraph-GUI/LangGraph-GUI-frontend
+   git clone --recursive https://github.com/LangGraph-GUI/LangGraph-GUI-frontend
    ```
 
 3. **Navigate to the Frontend Directory**  

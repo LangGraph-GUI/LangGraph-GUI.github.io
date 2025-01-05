@@ -7,3 +7,5 @@ If you want to learn more about LangGraph, we also have [learning LangGraph for 
 We have Qt version: [LangGraph-GUI-Qt](https://github.com/LangGraph-GUI/LangGraph-GUI-Qt)
 
 We also have Qt version of [CrewAI-GUI](https://github.com/LangGraph-GUI/CrewAI-GUI)
+
+[Flask ver backend](https://github.com/LangGraph-GUI/LangGraph-GUI-backend-flask)

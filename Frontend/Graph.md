@@ -40,3 +40,7 @@ CONDITION node will mapping to LangGraph conditional_edge
 ## Other Resource
 *If you want to learn more about LangGraph, we have LangGraph for dummy : [LangGraph-learn](https://github.com/LangGraph-GUI/LangGraph-learn)*
 
+#### Information Node
+INFO node do nothing, just append info to previous stage output
+
+![](images/info.webp)

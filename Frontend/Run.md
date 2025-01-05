@@ -7,16 +7,13 @@ layout: frontend
 This will Run graph.json on server.
 That is, you need upload graph.json first.
 
-![](./images/run.webp)
+![](./images/run_window.webp)
 
 ## Run
-Execute graph.json into LangGraph with Ollama.
-After Run, recommand download files.
+Execute graph.json into LangGraph with LLM.
+After Run, recommand get files from server.
 
-## Stop
-To terminal remote running server. (Currently, many bugs. If stuck, plese restart docker compose)
-
-## Cancel
+## Leave
 Leave run menu
 
 ## Text Space
