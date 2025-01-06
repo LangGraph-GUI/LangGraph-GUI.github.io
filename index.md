@@ -21,7 +21,5 @@ We hope you find the information you need. If you have any questions, feel free 
 
 
 ## Update log and future works:
-* [general log](https://github.com/LangGraph-GUI/LangGraph-GUI/blob/main/CHANGELOG.md)
-* [frontend log](https://github.com/LangGraph-GUI/LangGraph-GUI-frontend/blob/main/CHANGELOG.md)
-* [backend log](https://github.com/LangGraph-GUI/LangGraph-GUI-backend/blob/main/CHANGELOG.md)
+* [update log](https://github.com/LangGraph-GUI/LangGraph-GUI/blob/main/CHANGELOG.md)
 * [task manager](https://github.com/orgs/LangGraph-GUI/projects)
