@@ -6,24 +6,40 @@ layout: frontend
 
 # UI
 
+## Graph Panel
+
 There are several buttoms  
 ![](./images/panel_major.webp)
 
-## New Graph
+### New Graph
 
 New will clean the canvas.
 
-## Save Graph
+### Save Graph
 
 Save the graph into json to your computer.
 
-## Load Graph
+### Load Graph
 Read the graph json from your computer.
 
-## Run Graph
-Run graph.json on server, for more info, see [Run](./Run)
 
+## SugGraph Panel
+### subgraphs select
 
-## Config
-* set what llm you want to use
-* api key
+![](./images/select_subgraph.webp)
+
+change to edit specific subgraph
+
+### subgraph control
+
+![](./images/panel_subgraph.webp)
+
+## Add
+Add new subgraph
+
+## Load Subgraph
+upload a subgraph
+
+## Save Subgraph
+save single subgraph
+
