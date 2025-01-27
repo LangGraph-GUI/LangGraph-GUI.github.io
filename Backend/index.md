@@ -6,31 +6,38 @@ The core file that convert json to LangGraph is [/src/WorkFlow.py](https://githu
 
 ## Json Format
 
-json node format like this:
-you can extend ext to put your data, this is elastic design.
-for example, the ext.info is a ext and able to parse in our backend.
+It will be subgraphs.
+
+for each subgraph, contain graph_name, graph_nodes, graph_serial_number
+
+you can put anything at ext
+
 ```
-{
-  "nodes": [
-    {
-      "uniq_id": "1",
-      "nexts": [
-        "2"
-      ],
-      "type": "START",
-      "name": "Node 1",
-      "description": "",
-      "tool": "",
-      "true_next": null,
-      "false_next": null,
-      "ext": {
-        "pos_x": 126,
-        "pos_y": 146,
-        "width": 200,
-        "height": 200,
-        "info": ""
+[
+  {
+    "name": "root",
+    "nodes": [
+      {
+        "uniq_id": "1",
+        "type": "STEP",
+        "name": "Node 1",
+        "description": "",
+        "tool": "",
+        "nexts": [],
+        "true_next": null,
+        "false_next": null,
+        "ext": {
+          "pos_x": 420,
+          "pos_y": 60,
+          "width": 150,
+          "height": 200,
+          "info": null
+        }
       }
-    },
+    ],
+    "serial_number": 2
+  }
+]
 ```
 
 
