@@ -1,11 +1,14 @@
 # About LangGraph-GUI
 
-[LangGraph-GUI](https://github.com/LangGraph-GUI/LangGraph-GUI) is a user-friendly interface designed for editing Node-Edge workflow graphs using LangGraph. This tool supports creating, editing, and running workflows with local language models such Ollama. It can be easily deployed using Docker Compose.
+[github.com/LangGraph-GUI](https://github.com/LangGraph-GUI/LangGraph-GUI) is a user-friendly interface designed for editing Node-Edge workflow graphs using LangGraph. This tool supports creating, editing, and running workflows with local language models such Ollama. It can be easily deployed using Docker Compose.
 
 ![LangGraph-GUI](/cover.webp)
 
-## Docker Compose
-To run LangGraph-GUI using Docker Compose, refer to the detailed instructions available in the [LangGraph-GUI Docker Compose Setup](https://github.com/LangGraph-GUI/LangGraph-GUI?tab=readme-ov-file#getting-started).
+## Hold
+* [kubernetes](https://github.com/LangGraph-GUI/LangGraph-GUI/tree/main/k8s)
+* Docker Compose
+  * To run LangGraph-GUI using Docker Compose, refer to the detailed instructions available in the [LangGraph-GUI Docker Compose Setup](https://github.com/LangGraph-GUI/LangGraph-GUI?tab=readme-ov-file#getting-started).
+* [Windows](/Others/Windows)
 
 ## Components
 

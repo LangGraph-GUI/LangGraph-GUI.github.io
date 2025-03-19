@@ -1,6 +1,5 @@
 ---
 layout: base
-
 ---
 
 # [LangGraph-GUI](https://github.com/LangGraph-GUI/LangGraph-GUI/)
