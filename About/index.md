@@ -14,7 +14,7 @@
 
 LangGraph-GUI comprises the following main components:
 
-- **Frontend**: The default frontend is built with ReactFlow, providing an intuitive interface for graph editing.
+- **Frontend**: The default frontend is built with SvelteFlow, providing an intuitive interface for graph editing.
   - for more info, please view [Frontend](/Frontend)
 - **Backend**: The backend is implemented using Flask, offering a robust and scalable server-side solution.
   - for more info, please view [Backend](/Backend)

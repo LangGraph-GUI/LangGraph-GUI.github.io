@@ -19,7 +19,7 @@ showing current id (need nginx support)
 
 
 ## Run Graph
-Run graph.json on server, for more info, see [Run](./Run)
+Run workflow.json on server, for more info, see [Run](./Run)
 
 
 ## Upload Files to Server

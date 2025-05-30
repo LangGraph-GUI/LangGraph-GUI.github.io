@@ -35,7 +35,6 @@ you can put anything at ext
         }
       }
     ],
-    "serial_number": 2
   }
 ]
 ```
@@ -43,7 +42,7 @@ you can put anything at ext
 
 This use FastAPI server to communicate with frontend.
 
-Current implementation only runs graph.json.
+Current implementation only runs workflow.json.
 
 ## multi user support
 if you use [nginx.conf](https://github.com/LangGraph-GUI/LangGraph-GUI/blob/main/nginx/nginx.conf)

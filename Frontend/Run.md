@@ -4,13 +4,13 @@ layout: frontend
 ---
 
 # Run Graph
-This will Run graph.json on server.
+This will Run workflow.json on server.
 That is, you need upload graph.json first.
 
 ![](./images/run_window.webp)
 
 ## Run
-Execute graph.json into LangGraph with LLM.
+Execute workflow.json into LangGraph with LLM.
 After Run, recommand get files from server.
 
 ## Leave
