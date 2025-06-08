@@ -2,7 +2,54 @@
 layout: base
 ---
 
-{% include sidebar.html%}
+<head>
+  <style>
+    .page-container {
+      display: flex;
+      flex-wrap: wrap; /* Allow items to wrap as needed */
+      word-wrap: break-word;
+    }
+
+    .sidebar p {
+      margin: 0;
+      padding: 0;
+      line-height: 1.2em;
+    }
+        
+    .sidebar {
+      position: fixed;
+      flex: 0 0 12em; /* Fixed width for the sidebar */
+      width: 130px;
+    }
+
+    .page-content {
+      flex-grow: 1; /* Consumes the rest of the space */
+      margin-left: 200px;
+      margin-right: 200px;          
+      max-width: calc(100% - 150px);
+    }
+
+  </style>
+</head>
+
+</style>  
+
+<div class="page-container">
+  <aside class="sidebar" id="outline">
+    <!-- Sidebar content will be loaded here -->
+  </aside>
+
+  <main class="page-content">
+    <article class="post">
+      {% seo %}
+      <div class="post-content">
+        {{ content }}
+      </div>
+      <div id="randomPostsContainer"></div>
+    </article>
+  </main>
+
+</div>
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
@@ -13,5 +60,3 @@ layout: base
       });
   });
 </script>
-
-

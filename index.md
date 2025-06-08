@@ -1,26 +1,33 @@
 ---
 layout: base
+title: LangGraph-GUI
 ---
 
-# [LangGraph-GUI](https://github.com/LangGraph-GUI/LangGraph-GUI/)
-
-Welcome to the [LangGraph-GUI](https://github.com/LangGraph-GUI/LangGraph-GUI/) documentation!
-
-- To understand more about this project, visit the [About](/About) page.
-- For steps on using the GUI frontend, check out the [Frontend](/Frontend) documentation.
-- To explore backend details, see the [Backend](/Backend) documentation.
-- For Windows OS user, see [Windows](/Others/Windows)
-- For additional resources and related side projects, visit the [Others](/Others) page.
-
-If you have any questions or would like to leave a message, please use our [GitHub Discussions](https://github.com/LangGraph-GUI/LangGraph-GUI/discussions) page.
+[LangGraph-GUI](https://github.com/LangGraph-GUI/LangGraph-GUI) is a self-host, user-friendly interface designed for editing Node-Edge workflow graphs using LangGraph. This tool supports creating, editing, and running workflows with local language models such Ollama. It can be easily deployed using Docker Compose or K8s(Kubernetes).
 
 ![LangGraph-GUI](/cover.webp)
 
+## Components
 
-## Update log and future works:
-* [update log](https://github.com/LangGraph-GUI/LangGraph-GUI/blob/main/CHANGELOG.md)
-* [task manager](https://github.com/orgs/LangGraph-GUI/projects)
+LangGraph-GUI comprises the following main components:
 
+- **[Frontend](/Frontend)**: The default frontend is built with SvelteFlow, providing an intuitive interface for graph editing.
+- **[Backend](/Backend)**: The backend is implemented using Flask, offering a robust and scalable server-side solution.
+- AI-end
+  - For running local language models with Ollama AI service, we recommend using NVIDIA Docker. 
+- [selfhost](/Setup)
+  - For Linux user, just see github repo
+  - For Windows OS user, see [Windows](/Setup/Windows)
+
+- For additional resources and related side projects, visit the [Others](/Others) page.
+
+
+*If you want to learn more about LangGraph, we also have [learning LangGraph for dummy](https://github.com/LangGraph-GUI/LangGraph-learn)*
 
 ## Others
-We hope you find the information you need. If you have any questions, feel free to reach out!
+
+- If you have any questions or would like to leave a message, please use our [GitHub Discussions](https://github.com/LangGraph-GUI/LangGraph-GUI/discussions) page, or just open issue.
+
+- [update log](https://github.com/LangGraph-GUI/LangGraph-GUI/blob/main/CHANGELOG.md)
+
+- We hope you find the information you need. If you have any questions, feel free to reach out!

@@ -1,19 +1,44 @@
+---
+layout: page/note/basic
+---
+
 # LangGraph GUI Setup on Windows 
 
 This guide will help you set up and run the LangGraph-GUI, both backend and frontend, on a Windows environment, using environment variables for backend port and Ollama URL.
 
-## Prerequisites
+### Prerequisites
 
 Before you begin, ensure you have the following installed on your system:
 
+- **Codebase**
 - **Python or Conda**
 - **npm**
 - **Ollama**
 
+## Download repos
+    ```bash
+    git clone --recursive https://github.com/LangGraph-GUI/LangGraph-GUI
+    ```
+
+## Ollama Setup
+
+1. Download Ollama from official
+
+    https://ollama.com/download
+
+2. **Open Another PowerShell Terminal**  
+    Open another PowerShell terminal window.
+
+3. **Start Ollama**  
+    Run the Ollama service:
+    ```bash
+       ollama serve
+    ```
+
 ## Backend Setup
 
 1. **Open a PowerShell Terminal**
-    Open a PowerShell terminal window to start the setup process.
+    Open another PowerShell terminal window to start the setup process.
 
 2. **Create a Conda Environment (Optional)**
     Create a new Conda environment for the LangGraph backend:
@@ -73,7 +98,7 @@ Before you begin, ensure you have the following installed on your system:
     **frontend need dep**
     Clone the LangGraph frontend repository from GitHub:
     ```bash
-        git clone --recursive https://github.com/LangGraph-GUI/LangGraph-GUI-frontend
+        -frontend
     ```
 
 3. **Navigate to the Frontend Directory**  
@@ -94,16 +119,6 @@ Before you begin, ensure you have the following installed on your system:
     npm start
     ```
 
-## Ollama Setup
-
-1. **Open Another PowerShell Terminal**  
-    Open another PowerShell terminal window.
-
-2. **Start Ollama**  
-    Run the Ollama service:
-    ```bash
-       ollama serve
-    ```
 
 ## Conclusion
 

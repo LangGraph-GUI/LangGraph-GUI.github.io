@@ -4,8 +4,8 @@ If you want to learn more about LangGraph, we also have [learning LangGraph for 
 
 ## deprecated projects
 
-* old reactflow ver: [LangGraph-GUI-reactflow](https://github.com/LangGraph-GUI/LangGraph-GUI-reactflow)
-* old js version: [LangGraph-GUI](https://github.com/LangGraph-GUI/LangGraph-GUI/tree/0.6.1)
-* old flask version: [backend](https://github.com/LangGraph-GUI/LangGraph-GUI-backend/tree/flask)
-* old Qt version: [LangGraph-GUI-Qt](https://github.com/LangGraph-GUI/LangGraph-GUI-backend/tree/GUI-Qt)
-* old Qt version: [CrewAI-GUI](https://github.com/LangGraph-GUI/CrewAI-GUI)
+* old react ts ver: [LangGraph-GUI-reactflow](https://github.com/LangGraph-GUI/LangGraph-GUI-reactflow)
+* old react js frontend: [LangGraph-GUI](https://github.com/LangGraph-GUI/LangGraph-GUI/tree/0.6.1)
+* old flask backend:[backend](https://github.com/LangGraph-GUI/LangGraph-GUI-backend/tree/flask)
+* old Qt GUI frontend: [LangGraph-GUI-Qt](https://github.com/LangGraph-GUI/LangGraph-GUI-backend/tree/GUI-Qt)
+* old Qt version for CrewAI: [CrewAI-GUI](https://github.com/LangGraph-GUI/CrewAI-GUI)
